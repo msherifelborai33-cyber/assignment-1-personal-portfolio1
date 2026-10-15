@@ -1,0 +1,206 @@
+body
+{
+    background-color:whitesmoke ;
+}
+
+#one
+{
+    background-color:rgb(34, 131, 144) ;
+    width: 50%;
+    height: 160px;
+    margin: auto;
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    
+    
+}
+
+
+#one a
+{
+    color: rgba(255, 255, 255, 0.777);
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+     padding: 5px;
+    margin: 5px;
+    height: auto;
+    border-radius: 15px;
+    border:  solid ;
+    box-sizing: border-box;
+    background-color: rgba(48, 72, 75, 0.73) ;
+    
+}
+
+
+#one a:hover
+{
+    background-color: white;
+    
+    
+}
+
+
+
+#two
+{
+    background-color: white;
+    width: 50%;
+    margin: auto ;
+    border-radius: 20px;
+    text-align: center;
+    overflow: auto;
+    
+}
+
+
+#two img
+{
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    object-fit: cover ;
+    float: left;
+}
+
+
+span
+{
+    color: blue;
+    font-size: large;
+     
+}
+
+
+#three
+{
+    background-color: white;
+    width: 50%;
+     height: auto; 
+    margin: auto;
+    border-radius: 20px;    
+}
+
+#three .three2
+{
+    background-color:rgba(245, 245, 245, 0.7);
+    width: 95%;
+    height: 180px;
+    margin: auto;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 20px;
+    border-left: solid 5px rgba(0, 0, 255, 0.674);
+    
+    
+}
+
+
+#three img
+{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover ;
+    transition: 0.3s;
+    border: 2px saddlebrown solid;
+    margin-top: 5px ;
+    float: left;
+    
+}
+
+#three .three2 p
+{
+    margin-left: 80px;
+     margin-top: 4px;
+    margin-bottom: 4px;
+  
+}
+
+
+#three img:hover
+{
+    transform: scale(1.1);
+}
+
+
+
+#four
+{
+    background-color:rgb(5, 77, 87) ;
+    width: 50%;
+    height: 150px;
+    margin: auto;
+    color: white;
+    border-radius: 15px;
+    
+}
+
+
+#four a
+{
+    color: silver;
+    margin: 10px;
+    font-weight: bold;
+    text-decoration: none;
+     padding: 10px ;
+    margin: 5px;
+    height: auto;
+    border-radius: 15px;
+    border: solid;
+    box-sizing: border-box;
+    background-color: rgba(34, 131, 144, 0.284) ;
+    
+}
+
+#four a:hover
+{
+    background-color: white;
+     
+}
+
+
+.clear
+{
+    clear: both;
+}
+
+
+#five
+{
+    background-color: white;
+    width: 50%;
+    margin: auto;
+    border-radius: 15px;
+    
+  
+
+}
+
+.continer
+{
+  display: flex;
+  grid-column: 3px;
+   column-gap: 3px;
+   
+  
+}
+ 
+.card
+{
+    background-color:rgba(245, 245, 245, 0.7) ;
+    width: 23%;
+    border: 5px solid white;
+    box-sizing: border-box;
+    margin: auto; 
+    border-radius: 15px;
+    padding: 5px;
+    height: 140px;
+    margin-bottom: 10px;
+}
+
+.continer .card h2 
+{
+    color: rgba(0, 0, 255, 0.726);
+}
